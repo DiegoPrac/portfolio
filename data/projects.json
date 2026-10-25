@@ -1,0 +1,75 @@
+[
+  {
+    "id": "bombobites",
+    "title": "BomboBites",
+    "category": "web",
+    "label": "WEB DEVELOPMENT",
+    "image": "assets/bombobites.png",
+    "alt": "Halaman utama website BomboBites",
+    "description": "Website pre-order bomboloni dengan katalog produk dan alur pemesanan melalui Google Form.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "role": "Pengembangan website",
+    "features": [
+      "Landing page dan katalog produk",
+      "Navigasi yang menyesuaikan layar mobile",
+      "Data menu dalam format JSON",
+      "Tautan pemesanan melalui Google Form"
+    ],
+    "learning": "Saya belajar menyusun halaman web, menyesuaikan tampilan untuk HP, dan membaca data menu dari JSON.",
+    "repository": "https://github.com/DiegoPrac/BomboBites",
+    "demo": "https://diegoprac.github.io/BomboBites/",
+    "note": ""
+  },
+  {
+    "id": "mybibit",
+    "title": "MyBibit",
+    "category": "desktop",
+    "label": "PROYEK KELOMPOK · DESKTOP",
+    "image": "assets/mybibit-dashboard.png",
+    "alt": "Dashboard MyBibit dengan daftar bibit dan informasi stok",
+    "description": "Proyek kelompok aplikasi pengelolaan bibit. Saya ikut mengembangkan aplikasi ini bersama tim.",
+    "tech": [
+      "C#",
+      "Windows Forms",
+      "PostgreSQL"
+    ],
+    "role": "Anggota tim proyek",
+    "features": [
+      "Halaman login pada dokumentasi proyek",
+      "Katalog bibit dan informasi stok pada dokumentasi proyek"
+    ],
+    "learning": "Saya belajar membuat tampilan aplikasi desktop, menggunakan konsep OOP, dan mengerjakan proyek bersama tim.",
+    "repository": "https://github.com/DiegoPrac/ProjectBijiDanyAcademia",
+    "demo": "",
+    "note": "Gambar di atas berasal dari dokumentasi proyek. Repository yang ditautkan berisi versi awal antarmuka, sehingga fiturnya belum selengkap pada gambar."
+  },
+  {
+    "id": "agrokopi",
+    "title": "AGROKOPI",
+    "category": "cli",
+    "label": "PROYEK KELOMPOK · CLI",
+    "image": "assets/agrokopi.png",
+    "alt": "Menu aplikasi terminal AGROKOPI",
+    "description": "Aplikasi terminal penjualan kopi dengan pengelolaan produk, transaksi, riwayat pesanan, dan laporan harian.",
+    "tech": [
+      "Python",
+      "PostgreSQL",
+      "SQL"
+    ],
+    "role": "Anggota tim proyek",
+    "features": [
+      "Akses admin, karyawan, dan pelanggan",
+      "Registrasi dan login",
+      "Pengelolaan produk dan transaksi",
+      "Riwayat pesanan serta laporan harian"
+    ],
+    "learning": "Saya belajar menghubungkan Python ke PostgreSQL, menulis query SQL, dan membagi akses untuk admin, karyawan, serta pelanggan.",
+    "repository": "https://github.com/DiegoPrac/Kelompok04-Agrokopi",
+    "demo": "",
+    "note": ""
+  }
+]

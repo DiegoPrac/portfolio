@@ -1,0 +1,72 @@
+[
+  {
+    "id": "vscode",
+    "title": "Terampil Menggunakan Visual Studio Code",
+    "issuer": "Gamelab Indonesia",
+    "date": "9 Januari 2026",
+    "category": "teknis",
+    "note": "Lulus pelatihan dengan nilai 100. Berlaku sampai 9 Januari 2029.",
+    "image": "assets/certificates/vscode-preview.jpg",
+    "file": "assets/certificates/vscode.pdf"
+  },
+  {
+    "id": "speaking",
+    "title": "Basic English Speaking & Conversation",
+    "issuer": "IFLOW English Course · kampunginggris.co",
+    "date": "15 September 2026",
+    "category": "bahasa",
+    "note": "Peserta program 16 pertemuan, 17 Agustus–14 September 2026. Nilai B+.",
+    "image": "assets/certificates/speaking-preview.jpg",
+    "file": "assets/certificates/speaking.pdf"
+  },
+  {
+    "id": "diesgreet",
+    "title": "Diesgreet & Welcoming Session 2026",
+    "issuer": "HIMATIF · Fasilkom UNEJ",
+    "date": "27 Agustus 2026",
+    "category": "kegiatan",
+    "note": "Panitia Seksi Acara dalam kegiatan HIMATIF, Fakultas Ilmu Komputer, Universitas Jember.",
+    "image": "assets/certificates/diesgreet-preview.jpg",
+    "file": "assets/certificates/diesgreet.pdf"
+  },
+  {
+    "id": "tit",
+    "title": "Talk In Tech 6.0",
+    "issuer": "HIMATIF · Fasilkom UNEJ",
+    "date": "2026",
+    "category": "kegiatan",
+    "note": "Panitia Seksi Acara dalam kegiatan HIMATIF, Fakultas Ilmu Komputer, Universitas Jember.",
+    "image": "assets/certificates/tit-preview.jpg",
+    "file": "assets/certificates/tit.jpg"
+  },
+  {
+    "id": "mikrotik",
+    "title": "Webinar Dasar Jaringan MikroTik 2025",
+    "issuer": "Laboratorium Infrastruktur dan Teknologi · UNEJ",
+    "date": "2025",
+    "category": "teknis",
+    "note": "Peserta webinar pengantar dasar jaringan MikroTik.",
+    "image": "assets/certificates/mikrotik-preview.jpg",
+    "file": "assets/certificates/mikrotik.pdf"
+  },
+  {
+    "id": "smart-farming",
+    "title": "Smart Farming Transformation: Mengoptimalkan Agroindustri dengan IoT",
+    "issuer": "Laboratorium Pertanian Cerdas · UNEJ",
+    "date": "11 November 2025",
+    "category": "teknis",
+    "note": "Peserta webinar yang diselenggarakan pada 8 November 2025.",
+    "image": "assets/certificates/smart-farming-preview.jpg",
+    "file": "assets/certificates/smart-farming.pdf"
+  },
+  {
+    "id": "toefl-training",
+    "title": "TOEFL Training",
+    "issuer": "TEXAS English Course & Training Center",
+    "date": "31 Agustus 2024",
+    "category": "bahasa",
+    "note": "Peserta program SMART WAY TOEFL yang diselenggarakan TEXAS English Course & Training Center.",
+    "image": "assets/certificates/toefl-training-preview.jpg",
+    "file": "assets/certificates/toefl-training.pdf"
+  }
+]

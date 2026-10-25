@@ -1,0 +1,866 @@
+<!doctype html>
+<html lang="id" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portofolio Diego Valentino Augusta, mahasiswa Teknologi Informasi UNEJ. Jelajahi proyek dan unduh CV serta portofolio."
+    />
+    <meta name="theme-color" content="#182d40" />
+    <meta property="og:title" content="Diego Valentino Augusta — Portofolio" />
+    <meta
+      property="og:description"
+      content="Proyek, pengalaman kampus, dan sertifikat Diego Valentino Augusta."
+    />
+    <meta property="og:type" content="website" />
+    <title>Diego Valentino Augusta — Portofolio</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/tailwind.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="assets/script.js" defer></script>
+    <script src="assets/enhancements.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#utama">Lewati ke konten</a>
+    <header class="site-header">
+      <div class="container header-inner flex items-center justify-between">
+        <a class="brand" href="#beranda" aria-label="Diego, kembali ke beranda"
+          >dva<span>✳</span></a
+        >
+        <button
+          id="menu-button"
+          class="menu-button"
+          aria-controls="navigation"
+          aria-expanded="false"
+          hidden
+        >
+          Menu ☰
+        </button>
+        <button
+          id="theme-button"
+          class="theme-button"
+          type="button"
+          aria-label="Ganti ke tema terang"
+          hidden
+        >
+          ☀
+        </button>
+        <nav id="navigation" aria-label="Navigasi utama">
+          <a href="#tentang">Tentang</a><a href="#proyek">Proyek</a
+          ><a href="#perjalanan">Perjalanan</a
+          ><a href="#sertifikat">Sertifikat</a><a href="#dokumen">Dokumen</a
+          ><a class="nav-contact" href="#kontak">Mari terhubung ↗</a>
+        </nav>
+      </div>
+    </header>
+    <main id="utama">
+      <section class="hero" id="beranda" aria-labelledby="hero-title">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span class="status-dot"></span> MAHASISWA TI · UNIVERSITAS JEMBER
+            </p>
+            <h1 id="hero-title">
+              Halo, saya Diego.<br />Membangun ide<br />menjadi <em>karya.</em>
+            </h1>
+            <p class="hero-description">
+              Saya Diego Valentino Augusta. Belajar pengembangan web dan
+              perangkat lunak, dengan rasa ingin tahu pada keamanan siber.
+            </p>
+            <div class="button-row">
+              <a class="button button-dark" href="#proyek">Jelajahi proyek ↗</a
+              ><a
+                class="button button-outline"
+                href="downloads/CV-Diego-Valentino-Augusta.pdf"
+                download
+                >Unduh CV ↓</a
+              >
+            </div>
+            <div class="hero-note">
+              <span class="mini-line"></span> Berbasis di Jember, Indonesia
+            </div>
+          </div>
+          <div class="portrait-composition">
+            <div class="portrait-label">LEARNING BY BUILDING</div>
+            <figure class="portrait-frame">
+              <img
+                src="assets/diego-jas.webp"
+                alt="Diego Valentino Augusta mengenakan jas almamater UNEJ"
+                width="1011"
+                height="1556"
+                fetchpriority="high"
+              />
+            </figure>
+            <span class="portrait-star" aria-hidden="true">✳</span>
+            <div class="portrait-caption">
+              <span>Diego Valentino Augusta</span
+              ><small>Web & Software Development</small>
+            </div>
+            <span class="portrait-index">01 / INTRODUCTION</span>
+          </div>
+        </div>
+        <div class="hero-bottom container">
+          <span>Belajar lewat tugas kuliah dan proyek.</span
+          ><a href="#tentang">Kenali saya ↓</a>
+        </div>
+      </section>
+
+      <section class="technology-section" aria-labelledby="technology-title">
+        <div class="container technology-heading">
+          <p id="technology-title" class="eyebrow">
+            TEKNOLOGI YANG SAYA PRAKTIKKAN
+          </p>
+          <button
+            class="motion-button"
+            id="motion-button"
+            type="button"
+            aria-pressed="false"
+            hidden
+          >
+            Jeda animasi Ⅱ
+          </button>
+        </div>
+        <div class="technology-window">
+          <div class="technology-track" id="technology-track">
+            <div class="technology-group">
+              <div class="technology-item">
+                <span class="tech-symbol python" aria-hidden="true">Py</span>
+                <div><strong>Python</strong><small>Pemrograman</small></div>
+              </div>
+              <div class="technology-item">
+                <span class="tech-symbol javascript" aria-hidden="true"
+                  >JS</span
+                >
+                <div>
+                  <strong>JavaScript</strong><small>Interaksi web</small>
+                </div>
+              </div>
+              <div class="technology-item">
+                <span class="tech-symbol html" aria-hidden="true"
+                  >&lt;/&gt;</span
+                >
+                <div>
+                  <strong>HTML & CSS</strong><small>Antarmuka web</small>
+                </div>
+              </div>
+              <div class="technology-item">
+                <span class="tech-symbol csharp" aria-hidden="true">C#</span>
+                <div><strong>C#</strong><small>Aplikasi desktop</small></div>
+              </div>
+              <div class="technology-item">
+                <span class="tech-symbol sql" aria-hidden="true">SQL</span>
+                <div><strong>PostgreSQL</strong><small>Basis data</small></div>
+              </div>
+              <div class="technology-item">
+                <span class="tech-symbol git" aria-hidden="true">git</span>
+                <div>
+                  <strong>Git & GitHub</strong><small>Versi kode</small>
+                </div>
+              </div>
+            </div>
+            <div class="technology-group" aria-hidden="true">
+              <div class="technology-item">
+                <span class="tech-symbol python" aria-hidden="true">Py</span>
+                <div><strong>Python</strong><small>Pemrograman</small></div>
+              </div>
+              <div class="technology-item">
+                <span class="tech-symbol javascript" aria-hidden="true"
+                  >JS</span
+                >
+                <div>
+                  <strong>JavaScript</strong><small>Interaksi web</small>
+                </div>
+              </div>
+              <div class="technology-item">
+                <span class="tech-symbol html" aria-hidden="true"
+                  >&lt;/&gt;</span
+                >
+                <div>
+                  <strong>HTML & CSS</strong><small>Antarmuka web</small>
+                </div>
+              </div>
+              <div class="technology-item">
+                <span class="tech-symbol csharp" aria-hidden="true">C#</span>
+                <div><strong>C#</strong><small>Aplikasi desktop</small></div>
+              </div>
+              <div class="technology-item">
+                <span class="tech-symbol sql" aria-hidden="true">SQL</span>
+                <div><strong>PostgreSQL</strong><small>Basis data</small></div>
+              </div>
+              <div class="technology-item">
+                <span class="tech-symbol git" aria-hidden="true">git</span>
+                <div>
+                  <strong>Git & GitHub</strong><small>Versi kode</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="tentang" class="section section-about">
+        <div class="container about-layout">
+          <div>
+            <p class="eyebrow">01 — TENTANG SAYA</p>
+            <h2>Terus belajar.<br />Terus <em>mencoba.</em></h2>
+          </div>
+          <div class="about-copy">
+            <p class="lead">
+              Saya belajar membuat website dan aplikasi lewat tugas kuliah serta proyek bersama teman.
+            </p>
+            <p>
+              Saya mahasiswa S1 Teknologi Informasi di Universitas Jember. Proyek yang pernah saya kerjakan meliputi website BomboBites, aplikasi MyBibit, dan AGROKOPI. Dari proyek-proyek ini, saya belajar menyusun tampilan, menulis logika program, dan menggunakan database.
+            </p>
+            <p>Di kampus, saya ikut kepanitiaan HIMATIF sebagai Seksi Acara dan bertugas sebagai MC. Dari kegiatan ini, saya belajar berbicara di depan umum dan bekerja sama dengan panitia lain.</p>
+            <div class="about-facts">
+              <div>
+                <strong>3,96<span>/4,00</span></strong
+                ><small>IPK saat ini</small>
+              </div>
+              <div>
+                <strong>2025<span>— sekarang</span></strong
+                ><small>S1 Teknologi Informasi</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container skills-layout">
+          <h3>Bekal yang saya gunakan</h3>
+          <div>
+            <p class="skill-label">DIPRAKTIKKAN DALAM PROYEK</p>
+            <ul class="skill-list flex flex-wrap gap-2">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>C#</li>
+              <li>PostgreSQL</li>
+              <li>Git & GitHub</li>
+            </ul>
+            <p class="learning-note">
+              Sedang dipelajari: Linux, jaringan, keamanan informasi, dan red
+              teaming.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="proyek" class="section section-projects">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">02 — PROYEK PILIHAN</p>
+              <h2>Dari ide ke <em>implementasi.</em></h2>
+            </div>
+            <p>
+              Tiga proyek yang pernah<br />saya kerjakan.
+            </p>
+          </div>
+          <div class="project-toolbar">
+            <div
+              id="project-filters"
+              class="filter-group"
+              aria-label="Filter kategori proyek"
+              hidden
+            >
+              <button
+                type="button"
+                class="filter-button active"
+                data-filter="all"
+                aria-pressed="true"
+              >
+                Semua</button
+              ><button
+                type="button"
+                class="filter-button"
+                data-filter="web"
+                aria-pressed="false"
+              >
+                Website</button
+              ><button
+                type="button"
+                class="filter-button"
+                data-filter="desktop"
+                aria-pressed="false"
+              >
+                Desktop</button
+              ><button
+                type="button"
+                class="filter-button"
+                data-filter="cli"
+                aria-pressed="false"
+              >
+                CLI
+              </button>
+            </div>
+            <span id="project-count" role="status" aria-live="polite"
+              >3 proyek</span
+            >
+          </div>
+          <div id="project-list" class="project-list" aria-busy="false">
+            <article class="project-card">
+              <div class="project-image image-bombo">
+                <img
+                  src="assets/bombobites.png"
+                  alt="Website BomboBites"
+                  width="940"
+                  height="459"
+                  loading="eager" decoding="async"
+                />
+              </div>
+              <div class="project-content">
+                <p class="eyebrow">01 / WEB DEVELOPMENT</p>
+                <h3>BomboBites</h3>
+                <p>
+                  Website pre-order bomboloni dengan katalog produk dan
+                  pemesanan melalui Google Form.
+                </p>
+                <ul class="tags">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+                <a
+                  class="text-link"
+                  href="https://diegoprac.github.io/BomboBites/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Kunjungi website ↗</a
+                >
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-image image-bibit">
+                <img
+                  src="assets/mybibit-dashboard.png"
+                  alt="Dashboard MyBibit"
+                  width="940"
+                  height="500"
+                  loading="eager" decoding="async"
+                />
+              </div>
+              <div class="project-content">
+                <p class="eyebrow">02 / PROYEK KELOMPOK · DESKTOP</p>
+                <h3>MyBibit</h3>
+                <p>
+                  Proyek pengelolaan bibit. Dokumentasi menampilkan login,
+                  katalog, dan informasi stok bibit.
+                </p>
+                <ul class="tags">
+                  <li>C#</li>
+                  <li>Windows Forms</li>
+                  <li>PostgreSQL</li>
+                </ul>
+                <a
+                  class="text-link"
+                  href="https://github.com/DiegoPrac/ProjectBijiDanyAcademia"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Lihat repository ↗</a
+                >
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-image image-agro">
+                <img
+                  src="assets/agrokopi.png"
+                  alt="Menu terminal AGROKOPI"
+                  width="940"
+                  height="607"
+                  loading="eager" decoding="async"
+                />
+              </div>
+              <div class="project-content">
+                <p class="eyebrow">03 / PROYEK KELOMPOK · CLI</p>
+                <h3>AGROKOPI</h3>
+                <p>
+                  Aplikasi terminal penjualan kopi dengan produk, transaksi,
+                  riwayat pesanan, dan laporan harian.
+                </p>
+                <ul class="tags">
+                  <li>Python</li>
+                  <li>PostgreSQL</li>
+                  <li>SQL</li>
+                </ul>
+                <a
+                  class="text-link"
+                  href="https://github.com/DiegoPrac/Kelompok04-Agrokopi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Lihat repository ↗</a
+                >
+              </div>
+            </article>
+          </div>
+          <p
+            id="project-status"
+            class="helper-text"
+            role="status"
+            aria-live="polite"
+          ></p>
+          <a
+            class="all-projects"
+            href="https://github.com/DiegoPrac"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Lihat aktivitas saya di GitHub ↗</a
+          >
+        </div>
+      </section>
+      <section id="perjalanan" class="section section-journey">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">03 — DI LUAR KODE</p>
+              <h2>Belajar bersama.<br /><em>Tumbuh bersama.</em></h2>
+            </div>
+            <p>Pengalaman kepanitiaan<br />dan kegiatan kampus.</p>
+          </div>
+          <div class="experience-grid">
+            <article class="experience">
+              <img
+                src="assets/tit-team.webp"
+                alt="Dokumentasi panitia kegiatan HIMATIF"
+                width="1040"
+                height="585"
+                loading="eager" decoding="async"
+              />
+              <div>
+                <p class="eyebrow">HIMATIF UNEJ · 2026</p>
+                <h3>Talk In Tech 6.0</h3>
+                <p>
+                  Saya menjadi panitia Seksi Acara dan bertugas sebagai MC pada Talk In Tech 6.0.
+                </p>
+              </div>
+            </article>
+            <article class="experience">
+              <img
+                src="assets/diesgreet-team.webp"
+                alt="Panitia Diesgreet dan Welcoming Session 2026"
+                width="1040"
+                height="585"
+                loading="eager" decoding="async"
+              />
+              <div>
+                <p class="eyebrow">HIMATIF UNEJ · 2026</p>
+                <h3>Diesgreet & Welcoming Session</h3>
+                <p>
+                  Saya menjadi panitia Seksi Acara dan bertugas sebagai MC pada Diesgreet & Welcoming Session 2026.
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="education-strip">
+            <span class="education-icon" aria-hidden="true">↗</span>
+            <div>
+              <p class="eyebrow">PENDIDIKAN</p>
+              <h3>Universitas Jember</h3>
+              <p>S1 Teknologi Informasi · Fakultas Ilmu Komputer</p>
+            </div>
+            <span
+              >Agustus 2025 — sekarang<br /><small
+                >Target kelulusan 2029</small
+              ></span
+            >
+          </div>
+          <details class="training-details">
+            <summary>
+              Pelatihan & pengembangan diri <span aria-hidden="true">+</span>
+            </summary>
+            <ul>
+              <li>
+                <strong>Introduction to Information Security</strong
+                ><span>Cyber Academy Indonesia · Juni 2026</span>
+              </li>
+              <li>
+                <strong>Pre-Security</strong
+                ><span>Cyber Academy Indonesia · Februari 2026</span>
+              </li>
+              <li>
+                <strong>Terampil Menggunakan Visual Studio Code</strong
+                ><span>Gamelab Indonesia · Januari 2026 · Nilai 100</span>
+              </li>
+            </ul>
+          </details>
+        </div>
+      </section>
+
+      <section id="sertifikat" class="section section-certificates">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">04 — BUKTI PROSES BELAJAR</p>
+              <h2>Sertifikat & <em>pengembangan diri.</em></h2>
+            </div>
+            <p>
+              Beberapa pelatihan dan kegiatan yang pernah saya ikuti.
+            </p>
+          </div>
+          <div class="certificate-toolbar">
+            <div
+              id="certificate-filters"
+              class="filter-group"
+              aria-label="Filter sertifikat"
+              hidden
+            >
+              <button
+                class="filter-button active"
+                data-category="all"
+                aria-pressed="true"
+              >
+                Semua</button
+              ><button
+                class="filter-button"
+                data-category="teknis"
+                aria-pressed="false"
+              >
+                Teknis</button
+              ><button
+                class="filter-button"
+                data-category="bahasa"
+                aria-pressed="false"
+              >
+                Bahasa</button
+              ><button
+                class="filter-button"
+                data-category="kegiatan"
+                aria-pressed="false"
+              >
+                Kepanitiaan
+              </button>
+            </div>
+            <span id="certificate-count" role="status" aria-live="polite"
+              >7 dokumen</span
+            >
+          </div>
+          <div class="certificate-grid" id="certificate-list">
+            <article class="certificate-card">
+              <a
+                class="certificate-cover"
+                href="assets/certificates/vscode.pdf"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="assets/certificates/vscode-preview.jpg"
+                  alt="Pratinjau sertifikat Terampil Menggunakan Visual Studio Code"
+                  width="1200"
+                  height="850"
+                /><span class="certificate-view">Lihat dokumen ↗</span></a
+              >
+              <div class="certificate-copy">
+                <span class="certificate-category">teknis</span>
+                <h3>Terampil Menggunakan Visual Studio Code</h3>
+                <p>Gamelab Indonesia</p>
+                <time>9 Januari 2026</time>
+                <p class="certificate-note">
+                  Lulus pelatihan dengan nilai 100. Berlaku sampai 9 Januari
+                  2029.
+                </p>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <a
+                class="certificate-cover"
+                href="assets/certificates/speaking.pdf"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="assets/certificates/speaking-preview.jpg"
+                  alt="Pratinjau sertifikat Basic English Speaking & Conversation"
+                  width="1200"
+                  height="850"
+                /><span class="certificate-view">Lihat dokumen ↗</span></a
+              >
+              <div class="certificate-copy">
+                <span class="certificate-category">bahasa</span>
+                <h3>Basic English Speaking & Conversation</h3>
+                <p>IFLOW English Course · kampunginggris.co</p>
+                <time>15 September 2026</time>
+                <p class="certificate-note">
+                  Peserta program 16 pertemuan, 17 Agustus–14 September 2026.
+                  Nilai B+.
+                </p>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <a
+                class="certificate-cover"
+                href="assets/certificates/diesgreet.pdf"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="assets/certificates/diesgreet-preview.jpg"
+                  alt="Pratinjau sertifikat Diesgreet & Welcoming Session 2026"
+                  width="1200"
+                  height="850"
+                /><span class="certificate-view">Lihat dokumen ↗</span></a
+              >
+              <div class="certificate-copy">
+                <span class="certificate-category">kegiatan</span>
+                <h3>Diesgreet & Welcoming Session 2026</h3>
+                <p>HIMATIF · Fasilkom UNEJ</p>
+                <time>27 Agustus 2026</time>
+                <p class="certificate-note">
+                  Panitia Seksi Acara dalam kegiatan HIMATIF, Fakultas Ilmu
+                  Komputer, Universitas Jember.
+                </p>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <a
+                class="certificate-cover"
+                href="assets/certificates/tit.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="assets/certificates/tit-preview.jpg"
+                  alt="Pratinjau sertifikat Talk In Tech 6.0"
+                  width="1200"
+                  height="850"
+                /><span class="certificate-view">Lihat dokumen ↗</span></a
+              >
+              <div class="certificate-copy">
+                <span class="certificate-category">kegiatan</span>
+                <h3>Talk In Tech 6.0</h3>
+                <p>HIMATIF · Fasilkom UNEJ</p>
+                <time>2026</time>
+                <p class="certificate-note">
+                  Panitia Seksi Acara dalam kegiatan HIMATIF, Fakultas Ilmu
+                  Komputer, Universitas Jember.
+                </p>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <a
+                class="certificate-cover"
+                href="assets/certificates/mikrotik.pdf"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="assets/certificates/mikrotik-preview.jpg"
+                  alt="Pratinjau sertifikat Webinar Dasar Jaringan MikroTik 2025"
+                  width="1200"
+                  height="850"
+                /><span class="certificate-view">Lihat dokumen ↗</span></a
+              >
+              <div class="certificate-copy">
+                <span class="certificate-category">teknis</span>
+                <h3>Webinar Dasar Jaringan MikroTik 2025</h3>
+                <p>Laboratorium Infrastruktur dan Teknologi · UNEJ</p>
+                <time>2025</time>
+                <p class="certificate-note">
+                  Peserta webinar pengantar dasar jaringan MikroTik.
+                </p>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <a
+                class="certificate-cover"
+                href="assets/certificates/smart-farming.pdf"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="assets/certificates/smart-farming-preview.jpg"
+                  alt="Pratinjau sertifikat Smart Farming Transformation: Mengoptimalkan Agroindustri dengan IoT"
+                  width="1200"
+                  height="850"
+                /><span class="certificate-view">Lihat dokumen ↗</span></a
+              >
+              <div class="certificate-copy">
+                <span class="certificate-category">teknis</span>
+                <h3>
+                  Smart Farming Transformation: Mengoptimalkan Agroindustri
+                  dengan IoT
+                </h3>
+                <p>Laboratorium Pertanian Cerdas · UNEJ</p>
+                <time>11 November 2025</time>
+                <p class="certificate-note">
+                  Peserta webinar yang diselenggarakan pada 8 November 2025.
+                </p>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <a
+                class="certificate-cover"
+                href="assets/certificates/toefl-training.pdf"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="assets/certificates/toefl-training-preview.jpg"
+                  alt="Pratinjau sertifikat TOEFL Training"
+                  width="1200"
+                  height="850"
+                /><span class="certificate-view">Lihat dokumen ↗</span></a
+              >
+              <div class="certificate-copy">
+                <span class="certificate-category">bahasa</span>
+                <h3>TOEFL Training</h3>
+                <p>TEXAS English Course & Training Center</p>
+                <time>31 Agustus 2024</time>
+                <p class="certificate-note">
+                  Peserta program SMART WAY TOEFL yang diselenggarakan TEXAS
+                  English Course & Training Center.
+                </p>
+              </div>
+            </article>
+          </div>
+          <p id="certificate-status" class="helper-text" role="status"></p>
+          <article class="award-feature">
+            <img
+              src="assets/roboclash.webp"
+              alt="Diego bersama rekan tim dan piala RoboClash"
+              width="1280"
+              height="959"
+            />
+            <div>
+              <p class="eyebrow">DOKUMENTASI PENGHARGAAN · 2025</p>
+              <h3>RoboClash</h3>
+              <p>
+                Meraih penghargaan bersama tim dalam kompetisi robotika yang
+                diselenggarakan LAB PC, Fasilkom UNEJ. Saya berperan sebagai
+                <strong>pilot robot</strong>, mengendalikan pergerakan robot
+                selama pertandingan.
+              </p>
+              <span class="award-role">Pilot Robot · Kerja Tim</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="dokumen" class="section section-documents">
+        <div class="container documents-layout">
+          <div>
+            <p class="eyebrow">05 — KENALI LEBIH LENGKAP</p>
+            <h2>Ringkas dalam CV.<br />Lengkap di <em>portofolio.</em></h2>
+            <p>
+              Unduh dokumen untuk melihat pendidikan, pengalaman,<br />dan
+              dokumentasi proyek saya lebih dekat.
+            </p>
+          </div>
+          <div class="document-list">
+            <a
+              class="document-link"
+              href="downloads/CV-Diego-Valentino-Augusta.pdf"
+              download
+              ><div>
+                <span class="file-label">PDF / 1 HALAMAN</span>
+                <h3>Curriculum Vitae</h3>
+                <p>Pendidikan, keahlian, dan pengalaman.</p>
+              </div>
+              <span class="download-icon" aria-hidden="true">↓</span></a
+            ><a
+              class="document-link"
+              href="downloads/Portofolio-Diego-Valentino-Augusta.pdf"
+              download
+              ><div>
+                <span class="file-label">PDF / DOKUMENTASI KARYA</span>
+                <h3>Portofolio</h3>
+                <p>Proyek pilihan dan perjalanan belajar.</p>
+              </div>
+              <span class="download-icon" aria-hidden="true">↓</span></a
+            >
+            <p class="canva-links">
+              Versi Canva:
+              <a
+                href="https://canva.link/gcotwct809iynhw"
+                target="_blank"
+                rel="noopener noreferrer"
+                >CV ↗</a
+              >
+              <a
+                href="https://canva.link/95lhxp6xahzx472"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Portofolio ↗</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="kontak" class="section section-contact">
+        <div class="container contact-layout">
+          <div>
+            <p class="eyebrow">06 — MARI TERHUBUNG</p>
+            <h2>Punya ide?<br /><em>Mari ngobrol.</em></h2>
+            <p>
+              Saya terbuka untuk kesempatan magang,<br />kolaborasi proyek, dan
+              bertukar pengetahuan.
+            </p>
+            <a class="email-link" href="mailto:diegovalentino197@gmail.com"
+              >diegovalentino197@gmail.com ↗</a
+            >
+            <div class="social-links">
+              <a
+                href="https://github.com/DiegoPrac"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub ↗</a
+              ><a
+                href="https://id.linkedin.com/in/diego-valentino-augusta-a513bb387"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn ↗</a
+              ><button id="copy-email" type="button" hidden>Salin email</button>
+            </div>
+            <p id="copy-status" class="helper-text" role="status"></p>
+          </div>
+          <form
+            id="contact-form"
+            action="mailto:diegovalentino197@gmail.com"
+            method="get"
+          >
+            <label for="contact-name">Nama kamu</label
+            ><input
+              id="contact-name"
+              name="name"
+              autocomplete="name"
+              required
+              maxlength="100"
+              placeholder="Nama lengkap"
+            /><label for="contact-email">Email</label
+            ><input
+              id="contact-email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+              maxlength="254"
+              placeholder="nama@email.com"
+            /><label for="contact-message">Pesan</label
+            ><textarea
+              id="contact-message"
+              name="message"
+              required
+              minlength="10"
+              maxlength="2000"
+              rows="4"
+              placeholder="Ceritakan ide atau kesempatan yang ingin dibahas..."
+            ></textarea
+            ><button class="button button-dark" type="submit">
+              Buka email ↗
+            </button>
+            <p id="contact-status" class="form-note" role="status">
+              Pesan akan dibuka di aplikasi email untuk kamu kirim.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-inner">
+        <a class="brand" href="#beranda">dva<span>✳</span></a>
+        <p>© <span id="year">2026</span> Diego Valentino Augusta</p>
+        <a href="#beranda">Kembali ke atas ↑</a>
+      </div>
+    </footer>
+    <dialog id="project-dialog" aria-labelledby="dialog-title">
+      <button
+        id="dialog-close"
+        class="dialog-close"
+        type="button"
+        aria-label="Tutup detail proyek"
+      >
+        ×
+      </button>
+      <div id="dialog-content"></div>
+    </dialog>
+  </body>
+</html>
