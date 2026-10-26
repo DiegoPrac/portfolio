@@ -1,5 +1,25 @@
 [
   {
+    "id": "cyber-pre-security",
+    "title": "Pre-Security",
+    "issuer": "Cyber Academy Indonesia",
+    "date": "28 Februari 2026",
+    "category": "teknis",
+    "note": "Menyelesaikan kelas dasar IT dan keamanan siber di Cyber Academy Indonesia.",
+    "image": "assets/certificates/cyber-pre-security-preview.jpg",
+    "file": "assets/certificates/cyber-pre-security.pdf"
+  },
+  {
+    "id": "cyber-information-security",
+    "title": "Introduction to Information Security",
+    "issuer": "Cyber Academy Indonesia",
+    "date": "23 Juni 2026",
+    "category": "teknis",
+    "note": "Menyelesaikan kelas pengantar keamanan informasi di Cyber Academy Indonesia.",
+    "image": "assets/certificates/cyber-information-security-preview.jpg",
+    "file": "assets/certificates/cyber-information-security.pdf"
+  },
+  {
     "id": "vscode",
     "title": "Terampil Menggunakan Visual Studio Code",
     "issuer": "Gamelab Indonesia",
@@ -68,5 +88,15 @@
     "note": "Peserta program SMART WAY TOEFL yang diselenggarakan TEXAS English Course & Training Center.",
     "image": "assets/certificates/toefl-training-preview.jpg",
     "file": "assets/certificates/toefl-training.pdf"
+  },
+  {
+    "id": "toefl-prediction",
+    "title": "TOEFL Prediction - Skor 510 (Arsip)",
+    "issuer": "LKP TEXAS · Jember",
+    "date": "1 September 2024",
+    "category": "bahasa",
+    "note": "Hasil tes prediksi TOEFL dengan skor 510. Tertulis berlaku satu tahun; masa berlaku telah berakhir pada September 2025. Ditampilkan sebagai arsip, bukan hasil tes aktif. Salinan publik: tanggal lahir disamarkan.",
+    "image": "assets/certificates/toefl-prediction-preview.jpg",
+    "file": "assets/certificates/toefl-prediction-public.pdf"
   }
 ]

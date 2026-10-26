@@ -100,6 +100,8 @@ function renderCertificates() {
     cover.rel = "noopener";
     const image = element("img");
     image.src = cert.image;
+    image.loading = "lazy";
+    image.decoding = "async";
     image.alt = "Pratinjau sertifikat " + cert.title;
     image.width = 1200;
     image.height = 850;
@@ -173,7 +175,7 @@ async function loadCertificates() {
     const embedded = document.querySelector("#certificate-data");
     if (embedded) certificates = JSON.parse(embedded.textContent);
     else {
-      const response = await fetch("data/certificates.json");
+      const response = await fetch("data/certificates.json", { cache: "no-cache" });
       if (!response.ok) throw new Error();
       certificates = await response.json();
     }
